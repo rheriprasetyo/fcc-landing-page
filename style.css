@@ -105,8 +105,19 @@ nav > ul{
     
 }
 
-@media (max-width: 400px){
+@media (max-width: 600px){
     body{
         background: chartreuse;
     }
+    #header{
+        flex-wrap: wrap;
+
+    }
+    .logo > img {
+        margin-top: 50px;
+        max-width: 70px;
+        width: 100%;
+        
+    }
+   
 }
